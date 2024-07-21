@@ -20,4 +20,6 @@ app.use('/', (req, res, next) => {
     res.status(404).sendFile(path.join(__dirname, 'views' , 'page-not-found.html'));
  });
 
+
+//this is test 3
 app.listen(3000);
