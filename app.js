@@ -7,7 +7,7 @@ const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
 
 const bodyParser = require('body-parser');
-
+// this is test commit
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
